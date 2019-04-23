@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="password" />
+    <string name="title_activity_virtual_board">VirtualBoard</string>
+    <string name="title_activity_kanban_virtual">KanbanVirtual</string>
+    <string name="title_activity_ticket_details_recycler">TicketDetailsRecycler</string>
+</resources>

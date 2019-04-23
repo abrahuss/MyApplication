@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".KanbanUI">
+
+
+    <ImageView
+        android:id="@+id/ivTitle"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_margin="8dp"
+        android:contentDescription="Kanban Title Image"
+        android:src="@drawable/titlelogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <TextView
+        android:id="@+id/tvKanban"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Welcome to Kanban Dashboard"
+        android:textAlignment="center"
+        android:textColor="#683a00"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvPickSquad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/colorAccent"
+        android:text="Pick a Squad"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKanban"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Spinner
+        android:id="@+id/spinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:dropDownWidth="wrap_content"
+        android:layout_margin="4dp"
+        android:background="#fddfdf"
+        android:dropDownSelector="@color/colorPrimary"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPickSquad"
+        app:layout_constraintVertical_bias="0.014"
+        tools:background="?attr/colorButtonNormal" />
+
+    <Button
+        android:id="@+id/buttonStatistics"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:text="Get Statistics"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#006ce4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerItem"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+    <Button
+        android:id="@+id/buttonVKB"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:text="Virtual Kanban Board "
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#a68f30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toEndOf="@+id/buttonStatistics"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerItem"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/buttonGraph"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:text="Graph"
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:background="#9e1316"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerItem"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <Button
+        android:id="@+id/buttonRCS"
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:layout_margin="8dp"
+        android:text="Root Cause Stat"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#ff8b00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/buttonGraph"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerItem"
+        app:layout_constraintVertical_bias="0.554" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

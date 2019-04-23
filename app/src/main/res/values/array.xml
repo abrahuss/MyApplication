@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Billing-iERP</item>
+        <item>iERP Acct Rec/Svc Time Mgmt HR</item>
+        <item>iERP AP/GP</item>
+        <item>iERP Intercompany</item>
+        <item>iERP Technical Integration</item>
+        <item>iERP L2 Production Ops-Chengdu</item>
+        <item>iERP L2 Production Ops-Shanghai</item>
+        <item>iERP Middleware</item>
+        <item>iERP Product/Customer</item>
+        <item>iERP Quote and Proposal/Pricing</item>
+        <item>iERP RR/CFM</item>
+        <item>iERP Tech Ops-Hyderabad</item>
+        <item>Order Management-iERP</item>
+        <item>iERP</item>
+    </string-array>
+
+
+    <string-array name="Owner_Group">
+
+        <item>EAMT-Lite</item>
+        <item>ECMEU</item>
+        <item>ESI Billing</item>
+        <item>EUS_N_ASESWBHD</item>
+        <item>L2 ESW/HW Minsk</item>
+        <item>L2ESW</item>
+        <item>L2Finance</item>
+        <item>L2FinFire</item>
+        <item>L2General</item>
+        <item>L2InfoMgt/MDM</item>
+        <item>L2IPC</item>
+        <item>L2Middleware</item>
+        <item>L2OTC</item>
+        <item>L2OTC-AR</item>
+        <item>L2OTO</item>
+        <item>L2P2P</item>
+        <item>L2P2S</item>
+        <item>L2Sabrix</item>
+        <item>L2SystemMgmt</item>
+        <item>L3BICognos</item>
+        <item>L3Environment</item>
+        <item>L3Security</item>
+        <item>iERP</item>
+    </string-array>
+
+
+
+
+
+</resources>

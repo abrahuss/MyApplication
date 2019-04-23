@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RootCause">
+
+    <ImageView
+        android:id="@+id/ivTitle4"
+        android:layout_width="347dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/titlelogo" />
+
+    <Button
+        android:id="@+id/btnHomeRC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivRCA" />
+
+    <ImageView
+        android:id="@+id/ivRCA"
+        android:layout_width="366dp"
+        android:layout_height="316dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivTitle4"
+        app:layout_constraintVertical_bias="0.181"
+        app:srcCompat="@drawable/rca" />
+
+
+    <!-- <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:stretchColumns="1">
+         <TableRow>
+             <TextView
+                 android:text="@string/table_layout_4_open"
+                 android:padding="3dip" />
+             <TextView
+                 android:text="@string/table_layout_4_open_shortcut"
+                 android:gravity="right"
+                 android:padding="3dip" />
+         </TableRow>
+
+         <TableRow>
+             <TextView
+                 android:text="@string/table_layout_4_save"
+                 android:padding="3dip" />
+             <TextView
+                 android:text="@string/table_layout_4_save_shortcut"
+                 android:gravity="right"
+                 android:padding="3dip" />
+         </TableRow>
+     </TableLayout>-->
+
+</android.support.constraint.ConstraintLayout>
